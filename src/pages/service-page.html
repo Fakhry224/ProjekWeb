@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/service-styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper-container">
+      <!-- Header -->
+      <div class="header-container">
+        <header class="d-flex justify-content-center py-3">
+          <a
+            href="../../index.html"
+            class="d-flex align-items-center mb-md-0 me-md-auto me-sm-auto me-auto link-body-emphasis text-decoration-none"
+          >
+            <img
+              src="../../assets/images/logo-icon.png"
+              alt="logo-icon"
+              style="height: 70px; width: 70px"
+              class="logo-img"
+            />
+            <span class="fs-4 logo-name">MALANG GENSET</span>
+          </a>
+
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="../../index.html" class="nav-link" aria-current="page"
+                >Home</a
+              >
+            </li>
+          </ul>
+          <div
+            class="lang-container d-flex justify-content-center align-items-center"
+          >
+            <div class="line"></div>
+            <img
+              class="globe"
+              src="../../assets/icons/globe.svg"
+              alt="globe icon"
+            />
+            <p class="mt-3 ms-2 txt">ID</p>
+          </div>
+        </header>
+      </div>
+
+      <img
+        src="../../assets/images/header-image-2.png"
+        alt="header-image"
+        style="width: 100%"
+      />
+
+      <!-- Content -->
+      <div class="content d-flex justify-content-center align-items-center">
+        <div class="left-col">
+          <h1 class="text" id="title">Service Genset</h1>
+          <form action="" class="form-container">
+            <select
+              name="model"
+              class="form"
+              id="model"
+              placeholder="Pilih Model"
+            >
+              <option value="" disabled selected hidden>Pilih Model</option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+            </select>
+            <select
+              name="services"
+              class="form"
+              id="services"
+              placeholder="Jenis Perawatan"
+            >
+              <option value="" disabled selected hidden>Jenis Perawatan</option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+            </select>
+            <input type="date" class="form" id="date-form" />
+            <input
+              type="text"
+              class="form"
+              id="messages-form"
+              placeholder="Messages"
+            />
+            <button type="button" id="submit-btn">Submit</button>
+          </form>
+        </div>
+        <div class="cp-container">
+          <p id="desc">
+            Jika Anda memiliki pertanyaan atau membutuhkan bantuan, silakan
+            hubungi kami
+          </p>
+          <div class="contact d-flex align-items-center">
+            <img
+              class="text phone-icon"
+              src="../../assets/icons/phone.svg"
+              alt="phone icon"
+            />
+            <p class="mt-3 ms-3 text" id="phone-number">+62 1234 5678 312</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer-container">
+        <div class="d-flex align-items-center footer-content">
+          <div class="left-col">
+            <div class="col" id="company">
+              <img
+                src="../../assets/images/logo-icon.png"
+                alt=""
+                class="logo"
+              />
+              <h1 class="nama">CV. MalangGenset</h1>
+              <h2 class="keterangan">Ikuti Kami</h2>
+            </div>
+
+            <div class="social">
+              <a href="https://www.facebook.com/?locale=id_ID"
+                ><img
+                  src="../../assets/icons/facebook.svg"
+                  alt=""
+                  class="logo-facebook"
+              /></a>
+              <a href="https://www.youtube.com/"
+                ><img
+                  src="../../assets/icons/youtube.svg"
+                  alt=""
+                  class="logo-youtube"
+              /></a>
+              <a href="https://www.instagram.com/cv.malanggenset/">
+                <img
+                  src="../../assets/icons/instagram.svg"
+                  alt=""
+                  class="logo-instagram"
+              /></a>
+              <a href="https://wa.me/6287787882840"
+                ><img
+                  src="../../assets/icons/whatsup.svg"
+                  alt=""
+                  class="logo-whatsup"
+              /></a>
+              <a href="https://www.twitter.com"
+                ><img
+                  src="../../assets/icons/twitter.svg"
+                  alt=""
+                  class="logo-twitter"
+              /></a>
+            </div>
+          </div>
+          <div class="right-col d-flex justify-content-center">
+            <div id="layanan">
+              <h3>Layanan</h3>
+              <p>Jual & Beli Genset</p>
+              <p>Sewa Genset</p>
+              <p>Servis Genset</p>
+            </div>
+            <div id="why-us">
+              <h3>Why Us?</h3>
+              <p>Berpengalaman</p>
+              <p>Segala Model</p>
+              <p>Terjangkau</p>
+            </div>
+            <div id="hubungi-kami">
+              <h3>Hubungi Kami</h3>
+              <p>+621276741217</p>
+              <p>malanggenset@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <h3 class="copyright">Copyright © 2023</h3>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

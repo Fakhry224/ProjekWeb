@@ -1,0 +1,24 @@
+color
+Red (Phantone):
+#E63946
+
+Honeydew:
+#F1FAEE
+
+Non Photo Blue:
+#A8DADC
+
+Cerulean:
+#457B9D
+
+Barkeley Blue:
+#1D3557
+
+Background Blue White:
+#EEF5FA
+
+montserrat-font
+font-family: 'Montserrat', sans-serif;
+
+lato-font
+font-family: 'Lato', sans-serif;

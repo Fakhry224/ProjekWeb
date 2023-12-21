@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Import Bootstrap 5-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./src/style/styles.css" />
+    <title>Malang Genset</title>
+  </head>
+  <body>
+    <div class="wrapper-container">
+      <!-- Navigation Bar -->
+      <div class="header-container">
+        <header class="d-flex justify-content-center py-3">
+          <a
+            href="./index.html"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto me-sm-auto me-auto link-body-emphasis text-decoration-none"
+          >
+            <img
+              src="./assets/images/logo-icon.png"
+              alt="logo-icon"
+              style="height: 70px; width: 70px"
+              class="logo-img"
+            />
+            <span class="fs-4 logo-name">MALANG GENSET</span>
+          </a>
+
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="#heroes-section" class="nav-link" aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#about-section" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#products-section" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact-section" class="nav-link">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><div
+                  class="lang-container d-flex justify-content-center align-items-center"
+                >
+                  <div class="line"></div>
+                  <img src="../../assets/icons/globe.svg" alt="globe icon" />
+                  <p class="mt-3 ms-2">ID</p>
+                </div></a
+              >
+            </li>
+          </ul>
+
+          <div class="hamburger-container" onclick="activateDropDown(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </header>
+
+        <div class="dropdown-container">
+          <ul class="nav nav-drop">
+            <li class="nav-item">
+              <a href="#heroes-section" class="nav-link" aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#about-section" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#products-section" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact-section" class="nav-link">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><div
+                  class="lang-container d-flex justify-content-center align-items-center"
+                >
+                  <div class="line"></div>
+                  <img src="../../assets/icons/globe.svg" alt="globe icon" />
+                  <p class="mt-3 ms-2">ID</p>
+                </div></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Heroes Image -->
+      <section class="heroes-container" id="heroes-section">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                id="responsiveImg1"
+                src="assets/images/demo1.png"
+                class="demo1"
+                alt="..."
+                width="100%"
+              />
+              <div class="carousel-caption">
+                <h5>CV. MALANG GENSET</h5>
+                <p>Solusi genset terbaik untuk kebutuhan anda.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                id="responsiveImg2"
+                src="assets/images/demo2.png"
+                class="demo2"
+                alt="..."
+                width="100%"
+              />
+              <div class="carousel-caption">
+                <h5>CV. MALANG GENSET</h5>
+                <p>Solusi genset terbaik untuk kebutuhan anda.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                id="responsiveImg3"
+                src="assets/images/demo3.png"
+                class="demo3"
+                alt="..."
+                width="100%"
+              />
+              <div class="carousel-caption">
+                <h5>CV. MALANG GENSET</h5>
+                <p>Solusi genset terbaik untuk kebutuhan anda.</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="34"
+              height="60"
+              viewBox="0 0 34 60"
+              fill="none"
+            >
+              <path
+                d="M0.877034 32.3323L25.132 59.0344C26.3013 60.3219 28.1983 60.3219 29.3677 59.0344L32.1969 55.9196C33.365 54.6335 33.3663 52.5506 32.2019 51.2618L12.9789 30.0007L32.2006 8.73822C33.3663 7.44942 33.3638 5.36646 32.1957 4.0804L29.3664 0.965572C28.1971 -0.321857 26.3001 -0.321857 25.1307 0.965572L0.877034 27.669C-0.292345 28.9565 -0.292345 31.0449 0.877034 32.3323Z"
+                fill="black"
+              />
+            </svg>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="35"
+              height="60"
+              viewBox="0 0 35 60"
+              fill="none"
+            >
+              <path
+                d="M33.1724 32.3323L8.91748 59.0344C7.7481 60.3219 5.85114 60.3219 4.68176 59.0344L1.85253 55.9196C0.684402 54.6335 0.683155 52.5506 1.84754 51.2618L21.0705 30.0007L1.84879 8.73822C0.683155 7.44942 0.68565 5.36646 1.85378 4.0804L4.68301 0.965572C5.85238 -0.321857 7.74935 -0.321857 8.91873 0.965572L33.1724 27.669C34.3418 28.9565 34.3418 31.0449 33.1724 32.3323Z"
+                fill="black"
+              />
+            </svg>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- About Us Section -->
+      <section class="about-us-container" id="about-section">
+        <div
+          class="about-content d-flex justify-content-center align-items-center"
+        >
+          <h3 class="judul top">About-Us</h3>
+          <div class="image">
+            <img src="./assets/images/aboutus.png" alt="Gambar About-Us" />
+          </div>
+          <div class="isi">
+            <h3 class="judul">About-Us</h3>
+            <p id="text-desc">
+              CV. Malang Genset merupakan sebuah perusahaan yang bergerak pada
+              bidang genset. Kami menyediakan layanan sewa genset, jual/beli
+              genset, dan service genset. Kami berkomitmen untuk memberikan
+              layanan terbaik kepada pelanggan. Kami selalu berusaha untuk
+              memenuhi kebutuhan pelanggan dengan cepat dan memberikan solusi
+              yang tepat.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Product Section -->
+      <section class="products-container mx-5" id="products-section">
+        <div class="products-box rounded-4">
+          <h1 class="white-text" id="services-title">LAYANAN KAMI</h1>
+          <p class="white-text" id="prods-box-desc">
+            Kami menyediakan berbagai layanan untuk memenuhi kebutuhan
+            pelanggan, mulai dari sewa genset untuk keperluan sementara hingga
+            servis genset untuk menjaga performa genset Anda.
+          </p>
+          <div
+            class="products d-flex justify-content-center align-items-center"
+          >
+            <button class="prods-btn" onclick="pagesController('buynsell')">
+              <div
+                class="button-content d-flex justify-content-center align-items-center"
+              >
+                <div
+                  class="circle-container d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/icons/buynsell.svg"
+                    alt="icon jual & beli"
+                    class="prod-icon"
+                  />
+                </div>
+                <div class="desc-mobile">
+                  <p class="btn-text mt-3">Jual & Beli</p>
+                  <p class="prods-desc">
+                    Berbagai jenis genset dengan kualitas terbaik tersedia untuk
+                    memenuhi kebutuhan Anda.
+                  </p>
+                </div>
+              </div>
+            </button>
+            <button class="prods-btn" onclick="pagesController('lend')">
+              <div
+                class="button-content d-flex justify-content-center align-items-center"
+              >
+                <div
+                  class="circle-container d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/icons/lend.svg"
+                    alt="icon jual & beli"
+                    class="prod-icon"
+                  />
+                </div>
+                <div class="desc-mobile">
+                  <p class="btn-text mt-3">Sewa Genset</p>
+                  <p class="prods-desc">
+                    Sewa genset untuk berbagai keperluan, seperti acara atau
+                    kebutuhan industri.
+                  </p>
+                </div>
+              </div>
+            </button>
+            <button class="prods-btn" onclick="pagesController('service')">
+              <div
+                class="button-content d-flex justify-content-center align-items-center"
+              >
+                <div
+                  class="circle-container d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/icons/service.svg"
+                    alt="icon jual & beli"
+                    class="prod-icon"
+                  />
+                </div>
+                <div class="desc-mobile">
+                  <p class="btn-text mt-3">Servis Genset</p>
+                  <p class="prods-desc">
+                    Servis genset untuk menjaga kinerja genset Anda tetap
+                    optimal.
+                  </p>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Us Section -->
+      <section class="contact-us-container" id="contact-section">
+        <div class="box">
+          <div class="contact info">
+            <div class="infoBox">
+              <h3>Get in touch</h3>
+              <div>
+                <p id="text-caption">
+                  Jika Anda memiliki pertanyaan ataumembutuhkan bantuan, silakan
+                  isi formulir di samping, atau hubungi kontak di bawah, atau
+                  bisa langsung datang ke tempat yang terteradi bawah.
+                </p>
+              </div>
+              <div class="phoneInfo">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="40"
+                  viewBox="0 0 35 40"
+                  fill="none"
+                >
+                  <path
+                    d="M26.418 35.1523C27.0101 35.1087 27.5201 34.6594 27.7077 34.0161L28.7545 30.4272C28.9292 29.8283 28.7928 29.1681 28.4022 28.7217L25.7343 25.6727C25.2575 25.1278 24.516 25.0275 23.9411 25.4302L21.4688 27.162C19.744 28.3701 17.5194 28.0693 16.089 26.4345L12.3288 22.1372C10.8983 20.5024 10.6351 17.96 11.6922 15.9888L13.2075 13.1633C13.5599 12.5063 13.4722 11.6588 12.9954 11.1139L10.3275 8.06489C9.93692 7.6185 9.35918 7.46263 8.83515 7.66226L5.69488 8.85855C5.13197 9.073 4.73886 9.65585 4.70073 10.3326C4.516 13.6107 7.30208 18.7494 13.1777 25.4643C19.0533 32.1793 23.5497 35.3634 26.418 35.1523ZM26.6054 38.4787C22.629 38.7714 17.5486 35.1737 11.1153 27.8214C4.68196 20.469 1.534 14.6628 1.79009 10.1183C1.9045 8.08816 3.0838 6.33961 4.77255 5.69627L7.91282 4.49998C9.4849 3.90109 11.2181 4.3687 12.3899 5.70787L15.0578 8.75684C16.4882 10.3916 16.7514 12.934 15.6943 14.9052L14.179 17.7307C13.8266 18.3878 13.9144 19.2352 14.3912 19.7801L18.1513 24.0775C18.6282 24.6224 19.3697 24.7227 19.9446 24.32L22.4169 22.5882C24.1417 21.3801 26.3663 21.6809 27.7967 23.3157L30.4646 26.3647C31.6364 27.7038 32.0455 29.6846 31.5215 31.4813L30.4747 35.0702C29.9118 37.0002 28.3818 38.348 26.6054 38.4787ZM32.4479 16.6245C32.3324 17.5355 31.5926 18.1669 30.7955 18.0349C29.9984 17.9028 29.4459 17.0573 29.5614 16.1464C29.9036 13.449 29.1256 10.7024 27.3955 8.72513C25.6654 6.7479 23.2621 5.85878 20.9019 6.24977C20.1048 6.38181 19.365 5.75038 19.2495 4.83943C19.1339 3.92847 19.6864 3.08295 20.4835 2.95091C23.7463 2.4104 27.0712 3.64049 29.4579 6.36811C31.8446 9.09572 32.9209 12.8957 32.4479 16.6245ZM27.0945 17.585C26.9757 18.4954 26.2337 19.1234 25.4371 18.9877C24.6405 18.852 24.0909 18.0039 24.2097 17.0935C24.3809 15.781 24.0085 14.4507 23.1724 13.4952C22.3363 12.5397 21.1723 12.1141 20.0238 12.3097C19.2272 12.4454 18.4852 11.8174 18.3664 10.907C18.2477 9.99656 18.7972 9.14851 19.5938 9.0128C21.647 8.66303 23.7381 9.42766 25.2348 11.1381C26.7315 12.8486 27.4005 15.2385 27.0945 17.585Z"
+                    fill="black"
+                  />
+                </svg>
+                <a href="#">+62 1234 5678 312</a>
+              </div>
+              <div class="locationInfo">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="40"
+                  viewBox="0 0 35 40"
+                  fill="none"
+                >
+                  <path
+                    d="M19.5417 30.0751C18.4076 31.3456 16.5924 31.3456 15.4583 30.0751C10.0527 24.0193 7.29167 18.4639 7.29167 13.3337C7.29167 6.89034 11.8621 1.66699 17.5 1.66699C23.1379 1.66699 27.7083 6.89034 27.7083 13.3337C27.7083 18.4639 24.9473 24.0193 19.5417 30.0751ZM24.7917 13.3337C24.7917 8.73129 21.5271 5.00033 17.5 5.00033C13.4729 5.00033 10.2083 8.73129 10.2083 13.3337C10.2083 17.3931 12.6 22.2052 17.5 27.6947C22.4 22.2052 24.7917 17.3931 24.7917 13.3337ZM17.5 17.5003C15.0838 17.5003 13.125 15.2617 13.125 12.5003C13.125 9.7389 15.0838 7.50033 17.5 7.50033C19.9162 7.50033 21.875 9.7389 21.875 12.5003C21.875 15.2617 19.9162 17.5003 17.5 17.5003ZM17.5 14.167C18.3054 14.167 18.9583 13.4208 18.9583 12.5003C18.9583 11.5799 18.3054 10.8337 17.5 10.8337C16.6946 10.8337 16.0417 11.5799 16.0417 12.5003C16.0417 13.4208 16.6946 14.167 17.5 14.167ZM8.73837 26.5709C9.4925 26.2477 10.3331 26.6844 10.6159 27.5462C10.8987 28.4081 10.5166 29.3688 9.76248 29.692C8.0977 30.4055 7.29167 31.2222 7.29167 31.667C7.29167 33.062 11.8144 35.0003 17.5 35.0003C23.1856 35.0003 27.7083 33.062 27.7083 31.667C27.7083 31.2222 26.9023 30.4055 25.2375 29.692C24.4834 29.3688 24.1013 28.4081 24.3841 27.5462C24.6669 26.6844 25.5075 26.2477 26.2616 26.5709C28.9445 27.7207 30.625 29.4235 30.625 31.667C30.625 35.7948 24.701 38.3337 17.5 38.3337C10.299 38.3337 4.375 35.7948 4.375 31.667C4.375 29.4235 6.05553 27.7207 8.73837 26.5709Z"
+                    fill="black"
+                  />
+                </svg>
+                <a href="#">Malang, Jawa Timur</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact form">
+            <form>
+              <div class="formBox">
+                <div class="row50">
+                  <div class="inputBox">
+                    <input type="text" placeholder="Name" />
+                  </div>
+                  <div class="inputBox">
+                    <input type="text" placeholder="No.telp" />
+                  </div>
+                </div>
+                <div class="row100">
+                  <div class="inputBox">
+                    <input type="text" placeholder="Email" />
+                  </div>
+                  <div class="inputBox">
+                    <input type="text" placeholder="Subject" />
+                  </div>
+                  <div class="inputBox">
+                    <textarea placeholder="Message"></textarea>
+                  </div>
+                </div>
+                <div class="row100">
+                  <div class="inputBox">
+                    <input type="submit" value="Kirim" />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer-container">
+        <div class="d-flex align-items-center footer-content">
+          <div class="left-col">
+            <div class="col" id="company">
+              <img src="./assets/images/logo-icon.png" alt="" class="logo" />
+              <h1 class="nama">CV. MalangGenset</h1>
+              <h2 class="keterangan">Ikuti Kami</h2>
+            </div>
+
+            <div class="social">
+              <a href="https://www.facebook.com/?locale=id_ID"
+                ><img
+                  src="./assets/icons/facebook.svg"
+                  alt=""
+                  class="logo-facebook"
+              /></a>
+              <a href="https://www.youtube.com/"
+                ><img
+                  src="./assets/icons/youtube.svg"
+                  alt=""
+                  class="logo-youtube"
+              /></a>
+              <a href="https://www.instagram.com/cv.malanggenset/">
+                <img
+                  src="./assets/icons/instagram.svg"
+                  alt=""
+                  class="logo-instagram"
+              /></a>
+              <a href="https://wa.me/6287787882840"
+                ><img
+                  src="./assets/icons/whatsup.svg"
+                  alt=""
+                  class="logo-whatsup"
+              /></a>
+              <a href="https://www.twitter.com"
+                ><img
+                  src="./assets/icons/twitter.svg"
+                  alt=""
+                  class="logo-twitter"
+              /></a>
+            </div>
+          </div>
+          <div class="right-col d-flex justify-content-center">
+            <div id="layanan">
+              <h3>Layanan</h3>
+              <p>Jual & Beli Genset</p>
+              <p>Sewa Genset</p>
+              <p>Servis Genset</p>
+            </div>
+            <div id="why-us">
+              <h3>Why Us?</h3>
+              <p>Berpengalaman</p>
+              <p>Segala Model</p>
+              <p>Terjangkau</p>
+            </div>
+            <div id="hubungi-kami">
+              <h3>Hubungi Kami</h3>
+              <p>+621276741217</p>
+              <p>malanggenset@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <h3 class="copyright">Copyright © 2023</h3>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
