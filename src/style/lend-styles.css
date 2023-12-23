@@ -71,7 +71,7 @@ p {
 
 .content-container {
   width: 100%;
-  height: 100vh;
+  position: relative;
 }
 
 .content {
@@ -253,7 +253,7 @@ footer {
   }
 
   /* Content */
-  
+
   .content-container {
     margin-top: 100px;
   }
@@ -442,7 +442,7 @@ footer {
   }
 
   /* Footer */
-  
+
   footer {
     padding-top: 50px;
   }
