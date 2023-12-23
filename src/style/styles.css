@@ -12,6 +12,7 @@
 body {
   line-height: 1;
   height: 100vh;
+  background-color: #eef5fa;
 }
 
 ol,
@@ -654,6 +655,12 @@ a {
     display: none;
   }
 
+  .products-box {
+    background-color: #eef5fa;
+    padding: 0;
+    box-shadow: none;
+  }
+
   .products {
     display: grid !important;
     gap: 20px;
@@ -668,11 +675,8 @@ a {
   }
 
   #services-title {
+    color: #457b9d;
     font-size: 36px;
-  }
-
-  #prods-box-desc {
-    font-size: 16px;
   }
 
   .desc-mobile {
@@ -699,6 +703,19 @@ a {
     text-align: left;
     font-size: 14px;
     margin: 10px 0;
+  }
+
+  .prods-btn:after {
+    right: -10px;
+  }
+
+  .prods-btn:hover {
+    padding-right: 12px;
+    padding-left: 8px;
+  }
+
+  .prods-btn:hover:after {
+    right: 10px;
   }
 
   /* Contact Us */
