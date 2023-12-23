@@ -249,7 +249,7 @@ a {
   background-color: #fff;
   height: 60px;
   width: 60px;
-  margin: 0 20px;
+  margin-right: 20px;
 }
 
 .btn-text {
@@ -557,6 +557,10 @@ a {
     align-items: flex-end;
   }
 
+  .nav-drop .nav-link {
+    font-size: 20px;
+  }
+
   /* Heroes Image */
 
   .carousel-control-prev svg,
@@ -638,9 +642,10 @@ a {
   }
 
   .isi P {
-    max-width: 400px;
+    width: 400px;
     font-size: 18px;
     text-align: start;
+    margin: auto;
   }
 
   /* Products Section */
@@ -659,7 +664,7 @@ a {
   }
 
   .prods-btn {
-    width: 350px;
+    width: fit-content;
   }
 
   #services-title {
@@ -677,7 +682,6 @@ a {
   .circle-container {
     height: 50px;
     width: 50px;
-    margin-right: 30px;
   }
 
   .prod-icon {
@@ -746,11 +750,11 @@ a {
 
   .inputBox {
     margin-bottom: 10px;
-    width: 48%;
+    width: auto;
   }
 
   .row50 {
-    gap: 17px !important;
+    gap: auto !important;
   }
 
   #location-icon,
@@ -1015,11 +1019,11 @@ a {
 
   .products {
     display: grid !important;
-    gap: 30px;
+    gap: 20px;
   }
 
   .button-content {
-    margin: 20px;
+    margin: 30px;
   }
 
   .prods-btn {
@@ -1036,6 +1040,7 @@ a {
   .circle-container {
     height: 70px;
     width: 70px;
+    margin-right: 10px;
   }
 
   .prod-icon {
@@ -1286,7 +1291,7 @@ a {
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    margin: 0 10px;
+    margin-right: 10px;
   }
 
   .prod-icon {
@@ -1497,7 +1502,7 @@ a {
   }
 
   .btn-text {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   /* Contact Us */
