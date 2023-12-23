@@ -60,8 +60,8 @@ h1 {
 #home-link {
   color: #f1faee;
   text-decoration: none;
-  font-size: 24px;
   font-family: "Lato", sans-serif;
+  display: none;
 }
 
 .btn-sell {
@@ -261,6 +261,7 @@ footer {
   }
 
   #home-link {
+    display: block;
     font-size: 18px;
   }
 
@@ -314,6 +315,10 @@ footer {
   }
 
   /* Content */
+
+  .content {
+    margin-bottom: 300px;
+  }
 
   .products {
     width: fit-content;
@@ -440,6 +445,7 @@ footer {
   }
 
   #home-link {
+    display: block;
     font-size: 20px;
   }
 
@@ -489,6 +495,10 @@ footer {
   }
 
   /* Content */
+
+  .content {
+    margin-bottom: 250px;
+  }
 
   .products-container {
     height: fit-content;
@@ -641,6 +651,10 @@ footer {
 
   /* Content */
 
+  .content {
+    margin-bottom: 300px;
+  }
+
   .products {
     gap: 30px;
   }
@@ -749,6 +763,10 @@ footer {
   }
 
   /* Content */
+
+  .content {
+    margin-bottom: 300px;
+  }
 
   .products {
     gap: 50px;
