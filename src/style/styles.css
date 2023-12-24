@@ -643,10 +643,9 @@ a {
   }
 
   .isi p {
-    max-width: 350px;
+    max-width: 320px;
     font-size: 18px;
     text-align: start;
-    margin: auto;
   }
 
   /* Products Section */
