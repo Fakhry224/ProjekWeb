@@ -324,7 +324,7 @@ footer {
   #services,
   #date-form,
   #messages-form {
-    width: 390px;
+    width: 350px;
     margin: 0;
     padding: 10px 20px !important;
   }
@@ -343,6 +343,7 @@ footer {
   }
 
   .cp-container {
+    width: 350px;
     margin: 60px auto;
     border: 2px solid #1d3557;
     border-radius: 20px;
