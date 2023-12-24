@@ -70,6 +70,8 @@ p {
   font-weight: 600;
 }
 
+/* Content */
+
 .content-container {
   width: 100%;
   position: relative;
@@ -262,7 +264,7 @@ footer {
   .content {
     flex-direction: column;
     align-items: center;
-    margin-top: 50px !important;
+    margin: 50px auto 0 auto !important;
   }
 
   .images-container {
@@ -286,22 +288,22 @@ footer {
   }
 
   .desc-container {
-    width: 400px !important;
+    max-width: 380px !important;
     height: fit-content;
   }
 
   #image1 {
-    width: 400px;
+    width: 380px;
   }
 
   #image2 {
-    width: 160px;
+    width: 150px;
     height: 200px;
     margin: 10px 10px 0 0;
   }
 
   #image3 {
-    width: 225px;
+    width: 215px;
     height: 200px;
     margin-top: 10px;
   }
