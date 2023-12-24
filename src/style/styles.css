@@ -642,8 +642,8 @@ a {
     margin: 0 auto;
   }
 
-  .isi P {
-    width: 400px;
+  .isi p {
+    max-width: 400px;
     font-size: 18px;
     text-align: start;
     margin: auto;
