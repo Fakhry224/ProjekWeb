@@ -293,7 +293,7 @@ footer {
 
   .content {
     display: block !important;
-    margin: 100px 10%;
+    margin: 100px auto;
   }
 
   #title {
@@ -343,7 +343,7 @@ footer {
   }
 
   .cp-container {
-    margin: 60px 0;
+    margin: 60px auto;
     border: 2px solid #1d3557;
     border-radius: 20px;
     padding: 20px;
