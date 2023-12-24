@@ -288,22 +288,22 @@ footer {
   }
 
   .desc-container {
-    max-width: 380px !important;
+    max-width: 350px !important;
     height: fit-content;
   }
 
   #image1 {
-    width: 380px;
+    width: 350px;
   }
 
   #image2 {
-    width: 150px;
+    width: 135px;
     height: 200px;
     margin: 10px 10px 0 0;
   }
 
   #image3 {
-    width: 215px;
+    width: 200px;
     height: 200px;
     margin-top: 10px;
   }
