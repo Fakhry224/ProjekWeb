@@ -637,15 +637,14 @@ a {
   }
 
   .isi {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    margin: 0;
   }
 
   .isi p {
-    max-width: 320px;
+    width: 350px;
     font-size: 18px;
     text-align: start;
+    margin: 0 auto;
   }
 
   /* Products Section */
