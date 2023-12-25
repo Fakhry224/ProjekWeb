@@ -168,7 +168,7 @@ a {
   margin-left: 20px;
 }
 
-.isi P {
+.isi p {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   color: #1d3557;
@@ -641,10 +641,9 @@ a {
   }
 
   .isi p {
-    width: 350px;
-    font-size: 18px;
-    text-align: start;
-    margin: 0 auto;
+    width: 320px;
+    font-size: 16px;
+    margin-left: 7%;
   }
 
   /* Products Section */
